@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".Cv">
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:id="@+id/textViewd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:text="Note : Before complete your information please click on manage sections for ensure your CV sections." />
+
+    <Button
+        android:id="@+id/vcv"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="8dp"
+        android:text="View CV"
+        android:textSize="20sp" />
+
+    <TextView
+        android:textColor="#f25050"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:text="Sections" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="#ff9999"
+                android:layout_gravity="center"
+                android:id="@+id/msbtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Manage Sections" />
+
+            <Button
+                android:layout_marginTop="22dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#fafce6"
+                android:layout_gravity="center"
+                android:id="@+id/pdbtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Personal Details" />
+
+            <Button
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#fafce6"
+                android:layout_gravity="center"
+                android:id="@+id/edbtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Education" />
+
+            <Button
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#fafce6"
+                android:layout_gravity="center"
+                android:id="@+id/exbtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Experience" />
+
+            <Button
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#fafce6"
+                android:layout_gravity="center"
+                android:id="@+id/skbtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Skills" />
+
+            <Button
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#fafce6"
+                android:layout_gravity="center"
+                android:id="@+id/obtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Objective" />
+
+            <Button
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#fafce6"
+                android:layout_gravity="center"
+                android:id="@+id/rfbtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Reference" />
+
+            <Button
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#fafce6"
+                android:layout_gravity="center"
+                android:id="@+id/ptbtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Project" />
+
+            <Button
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#fafce6"
+                android:layout_gravity="center"
+                android:id="@+id/lnbtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Language" />
+            <Button
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#fafce6"
+                android:layout_gravity="center"
+                android:id="@+id/ibtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Interest" />
+            <Button
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#fafce6"
+                android:layout_gravity="center"
+                android:id="@+id/abtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Acheivement" />
+            <Button
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#fafce6"
+                android:layout_gravity="center"
+                android:id="@+id/asbtn"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Activities" />
+            <Button
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#fafce6"
+                android:layout_gravity="center"
+                android:id="@+id/psbtns"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Publications" />
+            <Button
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="7dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:backgroundTint="#fafce6"
+                android:layout_gravity="center"
+                android:id="@+id/cgbl"
+                android:layout_width="297dp"
+                android:layout_height="61dp"
+                android:text="Signature" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

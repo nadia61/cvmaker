@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Education">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/buttson2"
+                    android:layout_width="379dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:background="#fafce6"
+                    android:text="Education : 1 "
+                    android:textColor="@color/black"
+                    android:textSize="23sp" />
+
+                <TextView
+
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Course/Degree : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/buttonff2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="School/University : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="100dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/buttonss2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Grade : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Example : 3.45"
+                    android:textSize="22sp"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/buttodddn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Year : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Example : 2021"
+                    android:textSize="22sp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buffftttton2"
+                    android:layout_width="136dp"
+                    android:layout_height="61dp"
+                    android:layout_marginTop="28dp"
+                    android:backgroundTint="#fafce6"
+                    android:text="Add "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+
+
+            </LinearLayout>
+
+            <Button
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="28dp"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="#ff9999"
+                android:layout_gravity="center"
+                android:id="@+id/bufffttstgrton2"
+                android:layout_width="wrap_content"
+                android:layout_height="61dp"
+                android:text="Save" />
+
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/defaults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/buttson2j"
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="#fafce6"
+                android:text="Education : 2 "
+                android:textColor="@color/black"
+                android:textSize="23sp" />
+
+            <TextView
+
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_marginTop="10dp"
+
+                android:backgroundTint="#fff"
+                android:text="Course/Degree : "
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="389dp"
+                android:layout_height="60dp"
+                android:hint="Enter Name"
+                android:textSize="22sp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/buttonff2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+
+                android:backgroundTint="#fff"
+                android:text="School/University : "
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="389dp"
+                android:layout_height="100dp"
+                android:hint="Enter Name"
+                android:textSize="22sp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/buttonss2"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dp"
+
+                android:backgroundTint="#fff"
+                android:text="Grade : "
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="389dp"
+                android:layout_height="60dp"
+                android:hint="Example : 3.45"
+                android:textSize="22sp"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/buttodqddn2"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dp"
+
+                android:backgroundTint="#fff"
+                android:text="Year : "
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="389dp"
+                android:layout_height="60dp"
+                android:hint="Example : 2021"
+                android:textSize="22sp"
+
+
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bnuffftttton2"
+                    android:layout_width="136dp"
+                    android:layout_height="61dp"
+                    android:layout_marginTop="28dp"
+                    android:backgroundTint="#fafce6"
+                    android:text="Add "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+
+
+            </LinearLayout>
+            <Button
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="28dp"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="#ff9999"
+                android:layout_gravity="center"
+                android:id="@+id/bufffoottstgrton2"
+                android:layout_width="wrap_content"
+                android:layout_height="61dp"
+                android:text="Save" />
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

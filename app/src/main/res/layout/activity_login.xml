@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Login">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:textSize="22sp"
+        android:hint="Email"
+        android:layout_width="355dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:textSize="22sp"
+        android:hint="Password"
+        android:layout_width="355dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="34dp"
+        />
+    <CheckBox
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember Me"
+        android:layout_marginLeft="65dp"
+        android:textSize="22sp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/lg"
+        android:layout_width="248dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#66cc99"
+        android:text="Login"
+        android:textSize="25sp"
+        app:cornerRadius="180dp" />
+
+    <TextView
+        android:id="@+id/rgt"
+        android:layout_marginTop="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't Have an Account ? Register"
+        android:textSize="21sp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Experience">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="28dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Company Name : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/buttonff2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Job Title : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="100dp"
+                    android:hint="Enter Name"
+                    android:textSize="22sp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/buttonss2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Start date : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Example : 01 jan, 2021"
+                    android:textSize="22sp"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/buttodddn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="End date : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Example : 30 Dec, 2021"
+                    android:textSize="22sp"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/busttodddn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+
+                    android:backgroundTint="#fff"
+                    android:text="Job details : "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="389dp"
+                    android:layout_height="60dp"
+                    android:hint="Write description about job"
+                    android:textSize="22sp"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#fafce6"
+
+                    android:id="@+id/buffftttton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Add " />
+
+                <Button
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="28dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="#ff9999"
+                    android:layout_gravity="center"
+                    android:id="@+id/bufffttstgrton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="61dp"
+                    android:text="Save" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
